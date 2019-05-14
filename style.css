@@ -1,11 +1,48 @@
 /******
-	Add you style rules below in this file 
-	
+	Add you style rules below in this file
+
 	Requirements:
 	The main container should be 500px wide and centered.
-	
+
 	Colors:
 	dark orange color: #DB4006
 	light orange color: #ec9371
 
 ******/
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+}
+.item{
+  position: relative;
+  margin: 10px 0 10px 0;
+  background: #DB4006;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.item-list{}
+.title{
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 20px;
+}
+.description{
+  background: #ec9371;
+  font-size: 1em;
+  padding: 8px 20px;
+  border-radius: 0 0 5px 5px;
+}
+.close{
+  position: absolute;
+  top: 0;
+  right:0;
+  /* cursor: pointer; */
+  color: #000;
+  font-size: 20px;
+  padding: 5px 10px;
+}
